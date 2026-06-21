@@ -22,5 +22,5 @@ Security concerns should be reported directly to Anthony Tanksley.
 Email:
 
 ```txt
-imaginangelworld@gmail.com
+support@clutchsystemshq.com
 ```
