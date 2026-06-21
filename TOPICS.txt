@@ -1,0 +1,16 @@
+clutch
+clutch-systems-hq
+clutchtech
+investor-deck
+startup
+venture-studio
+ai
+automation
+saas
+detroit
+business-cards
+qr-code
+vercel
+react
+typescript
+tailwindcss
