@@ -1,6 +1,6 @@
 # Personal Proprietary License
 
-Copyright © 2026 Anthony Tanksley / Clutch Systems HQ / ClutchTech.  
+Copyright ©®️™️ 2026 Tanksley Holding LLC / Clutch Systems HQ / ClutchTech.  
 All rights reserved.
 
 This software, design system, branding, written content, product structure, business model, investor positioning, and related files are proprietary and personally owned by Anthony Tanksley and/or associated Clutch business entities.
@@ -9,9 +9,9 @@ This software, design system, branding, written content, product structure, busi
 
 You may view, edit, deploy, and modify this project only if you are:
 
-1. Anthony Tanksley;
+1. Tanksley Holdings LLC;
 2. A direct contractor, developer, designer, advisor, or employee authorized in writing by Anthony Tanksley;
-3. A platform provider used by Anthony Tanksley for development, deployment, storage, or presentation.
+3. A platform provider used by Clutch Tech for development, deployment, storage, or presentation.
 
 ## Restrictions
 
@@ -49,6 +49,6 @@ Unauthorized use may result in legal action, takedown requests, damages, contrac
 
 ---
 
-Owner: Anthony Tanksley  
+Owner: Tanksley Holdings LLC
 Brand: Clutch Systems HQ / ClutchTech  
 Tagline: Automation. Innovation. Profit.
