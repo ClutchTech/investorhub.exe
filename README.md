@@ -146,6 +146,6 @@ Planned additions:
 
 ## Legal Notice
 
-This repository contains proprietary business concepts, brand assets, financial positioning, and product strategy belonging to Anthony Tanksley / Clutch Systems HQ / ClutchTech.
+This repository contains proprietary business concepts, brand assets, financial positioning, and product strategy belonging to Tanksley Holdings LLC ®️ / Clutch Holdings LLC ®️ / Clutch De Luxe LLC ®️™️/ Clutch Systems HQ ™️ / ClutchTech ™️.
 
 See `PERSONAL-LICENSE.md`.
