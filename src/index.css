@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clutch Systems HQ — Detroit-built intelligence
+   Design tokens: obsidian black + royal gold. All colors HSL. */
+
+@layer base {
+  :root {
+    --background: 0 0% 4%;
+    --foreground: 45 25% 92%;
+
+    --card: 0 0% 6%;
+    --card-foreground: 45 25% 92%;
+
+    --popover: 0 0% 6%;
+    --popover-foreground: 45 25% 92%;
+
+    --primary: 44 78% 52%;
+    --primary-foreground: 0 0% 6%;
+    --primary-glow: 46 95% 65%;
+    --primary-deep: 38 70% 38%;
+
+    --secondary: 0 0% 10%;
+    --secondary-foreground: 45 25% 92%;
+
+    --muted: 0 0% 9%;
+    --muted-foreground: 40 8% 62%;
+
+    --accent: 44 78% 52%;
+    --accent-foreground: 0 0% 6%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 45 25% 92%;
+
+    --border: 44 25% 18%;
+    --input: 0 0% 12%;
+    --ring: 44 78% 52%;
+
+    --radius: 0.75rem;
+
+    /* Metallic gold gradients */
+    --gradient-gold: linear-gradient(135deg, hsl(38 70% 38%) 0%, hsl(44 78% 52%) 35%, hsl(46 95% 70%) 50%, hsl(44 78% 52%) 65%, hsl(38 70% 38%) 100%);
+    --gradient-gold-soft: linear-gradient(135deg, hsl(44 78% 52% / 0.15), hsl(46 95% 65% / 0.05));
+    --gradient-obsidian: linear-gradient(180deg, hsl(0 0% 4%) 0%, hsl(0 0% 7%) 100%);
+    --gradient-radial-gold: radial-gradient(circle at 50% 0%, hsl(44 78% 52% / 0.18), transparent 60%);
+
+    /* Shadows */
+    --shadow-gold: 0 10px 40px -10px hsl(44 78% 52% / 0.35);
+    --shadow-gold-sm: 0 4px 20px -6px hsl(44 78% 52% / 0.25);
+    --shadow-elevated: 0 20px 60px -20px hsl(0 0% 0% / 0.8);
+
+    --transition-smooth: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    /* Single dark theme — kept identical */
+    --background: 0 0% 4%;
+    --foreground: 45 25% 92%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, hsl(44 78% 52% / 0.12), transparent),
+      linear-gradient(180deg, hsl(0 0% 3%), hsl(0 0% 5%));
+    background-attachment: fixed;
+  }
+  h1, h2, h3, h4, .font-display {
+    font-family: 'Space Grotesk', 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .bg-gradient-gold {
+    background: var(--gradient-gold);
+  }
+  .bg-gradient-gold-soft {
+    background: var(--gradient-gold-soft);
+  }
+  .shadow-gold {
+    box-shadow: var(--shadow-gold);
+  }
+  .shadow-gold-sm {
+    box-shadow: var(--shadow-gold-sm);
+  }
+  .shadow-elevated {
+    box-shadow: var(--shadow-elevated);
+  }
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+  .grid-pattern {
+    background-image:
+      linear-gradient(hsl(44 78% 52% / 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(44 78% 52% / 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+  }
+  .circuit-pattern {
+    background-image:
+      radial-gradient(circle at 1px 1px, hsl(44 78% 52% / 0.18) 1px, transparent 0);
+    background-size: 24px 24px;
+  }
+  .gold-border {
+    position: relative;
+  }
+  .gold-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    padding: 1px;
+    border-radius: inherit;
+    background: var(--gradient-gold);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
