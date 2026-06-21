@@ -121,8 +121,8 @@ Founder & Systems Architect
 Clutch Systems HQ / ClutchTech  
 Detroit-built intelligence  
 
-Email: `imaginangelworld@gmail.com`  
-Handle: `@imaginangelworld`
+Email: `support@clutchsystemshq.com`  
+Handle: `@clutchsystemshq`
 
 ---
 
