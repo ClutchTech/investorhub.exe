@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:dark}
+html{scroll-behavior:smooth}
+body{background:#050505;color:#f8fafc}
+.clutch-grid{background-image:linear-gradient(rgba(212,175,55,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(212,175,55,.08) 1px,transparent 1px);background-size:48px 48px}
+.gold-text{background:linear-gradient(90deg,#f8e7a1,#d4af37,#8f6f13);-webkit-background-clip:text;color:transparent}
